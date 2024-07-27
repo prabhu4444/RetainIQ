@@ -1,5 +1,7 @@
+import { AppProvider } from "@/context/AppContext";
 import type { Metadata } from "next";
 import { Figtree } from "next/font/google";
+import { Toaster } from "react-hot-toast";
 import "./globals.css";
 
 const figtree = Figtree({
@@ -19,10 +21,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <AppProvider>
         <body className={figtree.className}>
           {children}
 
+          <Toaster position="top-center" reverseOrder={false} />
         </body>
+      </AppProvider>
     </html>
   );
 }
