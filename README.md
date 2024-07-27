@@ -14,7 +14,7 @@ This project demonstrates the implementation of a dynamic and interactive UI tab
 
 ## Live Demo
 
-You can view the live demo of the project [here](https://your-vercel-deployment-url.vercel.app).
+You can view the live demo of the project [here](https://retain-iq-beta.vercel.app/).
 
 ## Getting Started
 
